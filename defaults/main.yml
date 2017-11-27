@@ -1,0 +1,11 @@
+---
+# defaults file for prometheus-mysql-exporter
+prometheus_mysql_exporter_user: mysql_exporter
+prometheus_mysql_exporter_group: mysql_exporter
+
+prometheus_mysql_exporter_version: 0.10.0
+prometheus_mysql_exporter_checksum: 32797bc96aa00bb20e0b9165f6d3887fe9612b474061ee7de0189f5377b61859
+prometheus_mysql_exporter_arch: amd64
+prometheus_mysql_exporter_os: linux
+prometheus_mysql_exporter_dl: 'https://github.com/prometheus/mysqld_exporter/releases/download/v{{ prometheus_mysql_exporter_version }}/mysqld_exporter-{{ prometheus_mysql_exporter_version }}.{{ prometheus_mysql_exporter_os }}-{{ prometheus_mysql_exporter_arch }}.tar.gz'
+prometheus_mysql_exporter_basedir: '/opt/mysql_exporter'
